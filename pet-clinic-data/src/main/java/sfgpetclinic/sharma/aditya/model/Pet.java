@@ -1,4 +1,4 @@
-package sharma.aditya.sfgpetclinic.model;
+package sfgpetclinic.sharma.aditya.model;
 
 import java.time.LocalDate;
 
