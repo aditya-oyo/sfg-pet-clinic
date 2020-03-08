@@ -1,4 +1,4 @@
-package sfgpetclinic.sharma.aditya.model;
+package sharma.aditya.sfgpetclinic.model;
 
 public class PetType {
     private String name;
