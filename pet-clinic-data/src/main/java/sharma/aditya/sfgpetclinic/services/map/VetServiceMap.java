@@ -27,3 +27,4 @@ public class VetServiceMap extends AbstactMapService<Vet, Long> implements CrudS
         super.deleteById(id);
     }
 }
+
