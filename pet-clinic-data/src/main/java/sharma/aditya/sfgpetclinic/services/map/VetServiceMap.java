@@ -1,10 +1,12 @@
 package sharma.aditya.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import sharma.aditya.sfgpetclinic.model.Vet;
 import sharma.aditya.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstactMapService<Vet, Long> implements VetService    {
     @Override public Set<Vet> findAll() {
         return super.findAll();

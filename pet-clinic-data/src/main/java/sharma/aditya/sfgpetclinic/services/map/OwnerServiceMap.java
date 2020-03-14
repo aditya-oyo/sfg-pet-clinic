@@ -1,10 +1,12 @@
 package sharma.aditya.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import sharma.aditya.sfgpetclinic.model.Owner;
 import sharma.aditya.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstactMapService<Owner, Long> implements OwnerService {
     @Override public Set<Owner> findAll() {
         return super.findAll();
