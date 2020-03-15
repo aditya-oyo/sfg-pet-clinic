@@ -17,7 +17,7 @@ public class VetServiceMap extends AbstactMapService<Vet, Long> implements VetSe
     }
 
     @Override public Vet save(Vet pet) {
-        return super.save(pet.getId(), pet);
+        return super.save(pet);
     }
 
     @Override public void delete(Vet pet) {
